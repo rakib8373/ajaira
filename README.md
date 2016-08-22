@@ -9,4 +9,4 @@ ajaira is a clean device friendly bloging theme
 - Widgetized area.
 - Footer has two menus. One is social menu another is normal menu. 
 
-Live demo [Click here](http://ajria.mrakib.me)
+Live demo [Click here](http://ajaira.mrakib.me)
