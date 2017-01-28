@@ -37,9 +37,14 @@
 			</div> <!--  .post-image -->		
 	<?php	} 	?>
 	<div class="entry-content">
-		<?php the_excerpt(); ?>
-		<?php echo ajaira_read_more_link(); ?>
-
+		<?php
+		if($search_terms) {
+			the_excerpt();
+			echo ajaira_read_more_link();
+		} else {
+			the_content();
+		}
+		?>
 
 	</div><!-- .entry-content -->
 
