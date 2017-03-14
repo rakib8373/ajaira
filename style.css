@@ -876,14 +876,13 @@ table {
 	.widget_categories ul li, .widget_pages ul li, .widget_nav_menu ul li{
 		padding: 0;
 		display: block;
-		border-bottom: none;
+		border-bottom: 1px solid #eee;
 	}
 
 	
 	.widget_categories a, .widget_pages a, .widget_nav_menu a{
 		display: inline-block;
 		padding: 7px 0;
-		border-bottom: 1px solid #D9D9D9
 	}
 
 	/*rss*/

@@ -1,6 +1,11 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+
+@media (max-width: 500px) {
+    .site-title{font-size: 23px;}
+}
+
 @media (max-width: 767px) {
 	div.menu{display: none;}
 	div.slicknav_menu{display: block;}
